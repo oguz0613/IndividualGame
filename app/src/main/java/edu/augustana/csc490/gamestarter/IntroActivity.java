@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 
 public class IntroActivity extends Activity {
@@ -17,7 +18,7 @@ public class IntroActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
-        Button launcher = (Button) findViewById(R.id.buttonLaunch);
+        ImageButton launcher = (ImageButton) findViewById(R.id.playButton);
         launcher.setOnClickListener(clickHandler);
 
 
